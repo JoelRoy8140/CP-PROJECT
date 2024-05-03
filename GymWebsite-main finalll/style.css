@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #007bff;
+  --hover-color: #0056b3;
+  --focus-color: #80ffdb;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('samuel-girven-fqMu99l8sqo-unsplash.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  width: 50%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type="number"],
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  outline: none;
+}
+
+input[type="number"]:focus,
+select:focus {
+  border-color: var(--focus-color);
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--hover-color);
+}
+
+form {
+  background-image: linear-gradient(to right, #141e30, #243b55);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
